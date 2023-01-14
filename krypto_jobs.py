@@ -174,7 +174,7 @@ st.sidebar.write(account.address)
 # Write the returned ether balance to the sidebar
 # YOUR CODE HERE
 ether = get_balance(W3,account.address)
-st.sidebar.markdown("## Yoour Ether Balance")
+st.sidebar.markdown("## Your Ether Balance")
 st.sidebar.markdown(ether)
 st.sidebar.markdown("------")
 ##########################################
